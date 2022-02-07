@@ -81,5 +81,10 @@ $(document).ready(function() {
         }
     });
 
+    //Tenemos un boton que al hacer scroll cliques en el y te sube al top
+    $('#totop').click(function() {
+        $("html, body").animate({ scrollTop: 0 }, 600);
+    });
+
 
 });

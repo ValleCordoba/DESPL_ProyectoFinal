@@ -67,6 +67,24 @@
     .menu {
         font-weight: bold;
     }
+    
+    #totop {
+        display: none;
+        position: fixed;
+        right: 40px;
+        bottom: 64px;
+        width: 40px;
+        height: 30px;
+        background: black;
+        z-index: 9999;
+        cursor: pointer;
+        text-align: center;
+        padding-top: 9px;
+    }
+    
+    #totop i {
+        color: #fff;
+    }
     /* MOBILE */
     /* Adaptamos la parte movil para que se adapte tanto el footer como la cabecera que descuadraban */
     
