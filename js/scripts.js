@@ -70,6 +70,16 @@ $(document).ready(function() {
         }
     });
 
+    //SCROLL
+    $(document).scroll(function() {
+        // Te lleva al top
+        if ($(this).scrollTop() > 50) {
+            $('#totop').fadeIn(500);
+
+        } else {
+            $('#totop').fadeOut(500);
+        }
+    });
 
 
 });
