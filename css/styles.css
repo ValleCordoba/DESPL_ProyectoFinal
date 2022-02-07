@@ -1,0 +1,98 @@
+    ul.menu {
+        background-color: 3b83bd;
+    }
+    /* ponemos todos los href color negro */
+    
+    header .user-utils>div>a i {
+        color: black;
+    }
+    /* ponemos todos los icon color negro */
+    
+    header .user-utils>div>#my-account i {
+        color: black;
+    }
+    /* Cambiamos el color del background footer */
+    
+    footer {
+        background-color: 3b83bd;
+    }
+    
+    ul.menu>li a {
+        color: black;
+    }
+    
+    a {
+        color: black;
+    }
+    /* Cambiamos el color del background copyright */
+    
+    .copyright {
+        color: black;
+        background-color: #cdcdcd6c;
+    }
+    /* Cambiamos todos aquellos div dentro del main */
+    
+    #main>div {
+        margin-top: 25px;
+        margin-bottom: 25px;
+        color: black;
+        font-size: 18px;
+    }
+    /* damos un fondo al carrito/cesta y un padding */
+    
+    #carrito {
+        padding: 25px;
+        background-color: #cdcdcd6c;
+    }
+    /* Damos diseño tanto al item 1 como al 2 */
+    
+    #item1 {
+        padding: 10px;
+        border: 1px solid;
+    }
+    
+    #item2 {
+        padding: 10px;
+        border: 1px solid;
+    }
+    
+    #carrito {
+        vertical-align: middle;
+    }
+    
+    .contacto a {
+        color: black;
+    }
+    
+    .menu {
+        font-weight: bold;
+    }
+    /* MOBILE */
+    /* Adaptamos la parte movil para que se adapte tanto el footer como la cabecera que descuadraban */
+    
+    @media(max-width: 460px) {
+        .col-6 {
+            flex: 0 0 auto;
+            width: 100%;
+        }
+        header #logo {
+            order: 1;
+        }
+        header .contacto {
+            order: 2;
+            display: inline-block;
+            width: 48%;
+            margin-top: 5%;
+        }
+        header .user-utils {
+            width: 51%;
+            display: inline-block;
+            margin-top: 8%;
+        }
+        header .user-utils>div {
+            text-align: right;
+        }
+        header .contacto>div>span {
+            display: block;
+        }
+    }
